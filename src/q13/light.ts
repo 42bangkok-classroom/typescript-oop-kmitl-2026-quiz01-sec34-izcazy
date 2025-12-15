@@ -6,13 +6,13 @@ if(!color){
 switch(color.toLowerCase()){
     case 'red':
         console.log('Stop');
-        process.exit(1);
+        process.exit(0);
     case 'yellow':
         console.log('Caution');
-        process.exit(1);
+        process.exit(0);
     case 'green':
         console.log('Go');
-        process.exit(1);
+        process.exit(0);
     default:
         console.log('Unknown');
 }
