@@ -10,5 +10,5 @@ for(const item of args){
     }
 }
 if(max != null){
-    console.log(`Largest: ${String(max)}`);
+    console.log(`${String(max)}`);
 }
